@@ -1,7 +1,8 @@
-#install dbprofile package from GITHUB 
+## How to run
+
 ```r
+#install dbprofile package from GITHUB 
 remotes::install_github("hlee110123/dbprofile")
-```
 
 #install packages 
 install.packages("dbprofile")
@@ -46,5 +47,6 @@ print(sorted_results)
 
 #Export to CSV
 write.csv(prevalence_rates, "disease_prevalence_2016_2024.csv", row.names = FALSE)
+```
 
-#After exporting to CSV, you can sumit the file ("disease_prevalence_2016_2024.csv") vis email attachment ("hlee292@jh.edu")
+## After exporting to CSV, you can sumit the file ("disease_prevalence_2016_2024.csv") vis email attachment ("hlee292@jh.edu")
