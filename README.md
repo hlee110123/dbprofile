@@ -1,6 +1,20 @@
-### db profile analysis Package
+# dbprofile analysis Package
 
-# install dbprofile package from GITHUB 
+This R package provides tools for analyzing healthcare utilization in OMOP CDM databases.
+
+1. Prevalence rates of disease-related group (DRG) between 2016 and 2024
+2. Prescription rate of Anatomical Therpeutic Chemical (ATC) between 2016 and 2024
+3. Number of persons across domains between 2016 and 2024
+4. Number of occurrence records across domains between 2016 and 2024
+5. Prevalence rates (2016 - 2024) per 100k pts
+6. Prescription rates (2016 - 2024) per 100k pts
+7. Average number of records per person in each table
+8. Average number of records per visit in each table
+9. Distribution of chronic vs. acute condition
+10. Ratio of intensive interventions
+11. Prevalence of comorbidity-indicating codes
+    
+# Installation: dbprofile package from GITHUB 
 
 ```r
 remotes::install_github("hlee110123/dbprofile")
@@ -54,5 +68,5 @@ write.csv(prevalence_rates, "disease_prevalence_2016_2024.csv", row.names = FALS
 ```
 
 ## Notes
-#Once you've completed the analysis, please export the results to "disease_prevalence_2016_2024.csv" and kindly share it as an email attachment. Thank you! 
-#Email address: "hlee292@jh.edu"
+Once you've completed the analysis, please export the results to "disease_prevalence_2016_2024.csv" and kindly share it as an email attachment. Thank you! 
+Email address: "hlee292@jh.edu"
