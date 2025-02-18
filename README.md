@@ -1,9 +1,13 @@
+### db profile analysis Package
+
+## install dbprofile package from GITHUB 
+
+```r
+remotes::install_github("hlee110123/dbprofile")
+```
 ## How to run
 
 ```r
-#install dbprofile package from GITHUB 
-remotes::install_github("hlee110123/dbprofile")
-
 #install packages 
 install.packages("dbprofile")
 install.packages("DBI")
@@ -49,5 +53,6 @@ print(sorted_results)
 write.csv(prevalence_rates, "disease_prevalence_2016_2024.csv", row.names = FALSE)
 ```
 
-## Once you've completed the analysis, please export the results to "disease_prevalence_2016_2024.csv" and kindly share it as an email attachment. Thank you! 
-## Email address: "hlee292@jh.edu"
+## Notes
+# Once you've completed the analysis, please export the results to "disease_prevalence_2016_2024.csv" and kindly share it as an email attachment. Thank you! 
+# Email address: "hlee292@jh.edu"
