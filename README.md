@@ -49,4 +49,5 @@ print(sorted_results)
 write.csv(prevalence_rates, "disease_prevalence_2016_2024.csv", row.names = FALSE)
 ```
 
-## After exporting to CSV, you can sumit the file ("disease_prevalence_2016_2024.csv") vis email attachment ("hlee292@jh.edu")
+## Once you've completed the analysis, please export the results to "disease_prevalence_2016_2024.csv" and kindly share it as an email attachment. Thank you! 
+## Email address: "hlee292@jh.edu"
