@@ -2,17 +2,20 @@
 
 This R package provides tools for analyzing healthcare utilization in OMOP CDM databases.
 
-1. Prevalence rates of disease-related group (DRG) between 2016 and 2024
-2. Prescription rate of Anatomical Therpeutic Chemical (ATC) between 2016 and 2024
-3. Number of persons across domains between 2016 and 2024
-4. Number of occurrence records across domains between 2016 and 2024
-5. Prevalence rates (2016 - 2024) per 100k pts
-6. Prescription rates (2016 - 2024) per 100k pts
-7. Average number of records per person in each table
-8. Average number of records per visit in each table
-9. Distribution of chronic vs. acute condition
-10. Ratio of intensive interventions
-11. Prevalence of comorbidity-indicating codes
+Analysis of Healthcare Data (2016–2024):
+
+1. Prevalence Rates of Disease-Related Groups (DRG) (2016–2024)
+2. Prescription Rates of Anatomical Therapeutic Chemical (ATC) Classifications (2016–2024)
+3. Number of Individuals Across Domains (2016–2024)
+4. Number of Occurrence Records Across Domains (2016–2024)
+5. Prevalence Rates per 100,000 Patients (2016–2024)
+6. Prescription Rates per 100,000 Patients (2016–2024)
+7. Average Number of Records per Person in Each Table
+8. Average Number of Records per Visit in Each Table
+9. Distribution of Chronic vs. Acute Conditions
+10. Ratio of Intensive Interventions
+11. Prevalence of Comorbidity-Indicating Codes
+12. Severity Scores (Elixhauser Comorbidity Index or Charlson Comorbidity Index)
     
 # Installation: dbprofile package from GITHUB 
 
