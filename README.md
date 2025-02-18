@@ -1,5 +1,7 @@
 #install dbprofile package from GITHUB 
+```r
 remotes::install_github("hlee110123/dbprofile")
+```
 
 #install packages 
 install.packages("dbprofile")
