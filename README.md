@@ -2,7 +2,7 @@
 
 ```r
 #install dbprofile package from GITHUB 
-remotes::install_github("hlee110123/dbprofile")
+remotes::install_github("hlee110123/dbprofile_analysis")
 
 #install packages 
 install.packages("dbprofile")
