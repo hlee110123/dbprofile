@@ -35,7 +35,7 @@ connectionDetails <- createConnectionDetails(
 conn <- connect(connectionDetails)
 
 #Get counts for a specific category
-respiratory_count <- get_category_count(conn, "dbo", "respiratory")
+respiratory_count <- get_category_count(conn, "your schema name", "respiratory")
 print(paste("Respiratory patients (2016-2024):", respiratory_count))
 
 #Get all prevalence rates
